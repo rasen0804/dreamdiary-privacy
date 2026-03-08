@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DreamDiary - Support</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #1d1d1f;
+      --secondary: #6e6e73;
+      --accent: #7B5EBF;
+      --border: #d2d2d7;
+      --card-bg: #f5f5f7;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #1d1d1f;
+        --text: #f5f5f7;
+        --secondary: #a1a1a6;
+        --accent: #B373FF;
+        --border: #424245;
+        --card-bg: #2d2d2f;
+      }
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 0 20px;
+    }
+    .container { max-width: 720px; margin: 0 auto; padding: 40px 0 80px; }
+    h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+    .subtitle { color: var(--secondary); font-size: 14px; margin-bottom: 32px; }
+    h2 { font-size: 20px; font-weight: 600; margin-top: 36px; margin-bottom: 12px; }
+    p, li { font-size: 15px; color: var(--text); margin-bottom: 12px; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 8px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .highlight {
+      background: var(--card-bg);
+      border-radius: 12px;
+      padding: 20px;
+      margin: 20px 0;
+    }
+    footer { margin-top: 60px; padding-top: 20px; border-top: 1px solid var(--border); color: var(--secondary); font-size: 13px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Support</h1>
+    <p class="subtitle">DreamDiary サポートページ</p>
+
+    <h2>よくある質問</h2>
+
+    <h3>Q. AI夢占いが使えません</h3>
+    <p>AI夢占い機能はプレミアムプラン（月額）またはチケット購入で利用できます。設定 > プレミアムプラン からご確認ください。</p>
+
+    <h3>Q. サブスクリプションをキャンセルしたい</h3>
+    <p>iOSの「設定」→ 自分の名前 → 「サブスクリプション」→「DreamDiary」からキャンセルできます。</p>
+
+    <h3>Q. データを引き継ぎたい</h3>
+    <p>夢日記データはデバイス上に保存されています。iCloudバックアップが有効な場合、機種変更時にバックアップから復元できます。</p>
+
+    <h3>Q. AI占いの結果は正確ですか？</h3>
+    <p>AI占い機能はエンターテインメント目的で提供しています。医学的・心理学的な診断ではありません。</p>
+
+    <div class="highlight">
+      <h2>お問い合わせ</h2>
+      <p>上記で解決しない場合は、以下のメールアドレスまでお気軽にご連絡ください。</p>
+      <p><strong>Email:</strong> <a href="mailto:nyo.kdmj.100@gmail.com">nyo.kdmj.100@gmail.com</a></p>
+    </div>
+
+    <h2>関連リンク</h2>
+    <ul>
+      <li><a href="./index.html">プライバシーポリシー</a></li>
+      <li><a href="./terms.html">利用規約</a></li>
+    </ul>
+
+    <footer>
+      <p>&copy; 2026 DreamDiary. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
